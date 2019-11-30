@@ -1,0 +1,1 @@
+rsync -avzhe 'ssh -p21098' * signedhf@199.188.200.143:/home/signedhf/php.signaturees.com/ --exclude database/database.sqlite --progress --exclude node_modules --exclude vendor --exclude .env --exclude storage/framework/sessions/ --exclude storage/framework/cache/data/ --exclude storage/framework/views/
